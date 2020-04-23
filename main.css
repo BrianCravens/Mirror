@@ -1,0 +1,62 @@
+.Outputs {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row; */
+    /* flex-direction: row; */
+    /* flex-flow: row nowrap; */
+    /* flex-flow: overflow wrap; */
+    /* flex-grow: inherit; */
+    /* flex-wrap: nowrap; */
+    /* flex-grow: 1; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* flex-grow: 1; */
+    margin-left: 200px;
+    margin-right: 200px;
+    
+
+
+}
+
+#article-1 {
+    /* display: inline; */
+    /* align-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* width: 20%; */
+    /* flex-direction: row; */
+    /* flex-direction: row; */
+    /* width: 50%; */
+    /* display: -webkit-inline-flex; */
+    flex-wrap: row wrap;
+    flex-flow: row wrap;
+    /* overflow: auto; */
+    justify-content: space-around;
+    /* flex:1, 1, 50%; */
+    /* flex-direction: column; */
+    margin-right: 50px;
+    background-color: rgb(255, 0, 119);
+    border: 1px solid coral;
+    max-width: 200px;
+    /* flex-grow: 1; */
+    min-height: 0;
+    /* flex-direction: corlumn; */
+
+    /* margin-right: 200px;   */
+    
+} 
+#article-2 {
+    /* display: inline; */
+    flex:1, 1, 50%;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* width:20%; */
+    /* flex-direction: row; */
+    /* width: 50%; */
+    justify-content: space-around;
+    /* flex-grow: 1; */
+    width: 50%;
+    background-color: blue;
+    border: 1px solid rgb(80, 255, 232);
+   
+}
